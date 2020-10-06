@@ -59,7 +59,7 @@ void Word_count(struct Word *Danci,int length) //统计单词的个数
         {  
 			cishu++;
         }
-	printf("total %d\n\n", cishu);
+	printf("total %d words\n\n", cishu);
     for (i = 0; i < length; i++)
         if (strcmp(Danci[i].word, " ") != 0)
         { 
